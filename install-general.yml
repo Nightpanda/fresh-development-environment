@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  roles:
+    - nephelaiio.git
+    - geerlingguy.docker
+    - nephelaiio.tmux
