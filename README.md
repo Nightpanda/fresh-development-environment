@@ -9,13 +9,9 @@ cd master
 ```bash
 ./install-development
 ```
-## Get the ansible roles
+## Setup environment with ansible
 ```bash
 ./get-ansible-galaxy-roles
-```
-##
-Run ansible installation
-```bash
 ansible-playbook install-general.yml -K
 ```
 ## Run post install scripts
